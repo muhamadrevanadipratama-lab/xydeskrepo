@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-2",
+  "hostname": "rdpfree-1",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
+    "disk_free_gb": 82.9,
     "cpu_threads": 4,
-    "disk_free_gb": 82.9
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T02:50:23Z",
-  "expires_at": "2026-10-16T08:45:23Z",
+  "started_at": "2026-10-16T02:53:13Z",
+  "expires_at": "2026-10-16T08:48:13Z",
   "duration_menit": 355,
-  "run_id": "38842451159",
-  "run_attempt": "1",
-  "run_number": "2",
-  "run_url": "https://github.com/muhamadrevanadipratama-lab/xydeskrepo/actions/runs/38842451159",
+  "run_id": "38734323656",
+  "run_attempt": "2",
+  "run_number": "1",
+  "run_url": "https://github.com/muhamadrevanadipratama-lab/xydeskrepo/actions/runs/38734323656",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,13 +41,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "status": "failed",
+      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-16T02:50:35Z"
+  "stopped_at": "2026-10-16T02:53:25Z"
 }
